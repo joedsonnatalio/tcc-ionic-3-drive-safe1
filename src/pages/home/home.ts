@@ -53,11 +53,15 @@ map: any;
 
         this.map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
+ //marcador da minha localização      
         const marker = new google.maps.Marker({
           position: position,
-         map: this.map
+         map: this.map,
+//icone do carrinho
+        icon: 'assets/imgs/carro.png',
+        
         });
-
+//condição caso de algum erro e não localize a localização
       }).catch((error) => {
         console.log('Erro ao recuperar sua posição', error);
       });
