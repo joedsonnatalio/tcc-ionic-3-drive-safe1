@@ -29,7 +29,7 @@
     "@ionic/storage": "^2.2.0",
     "angularfire2": "^5.1.2",
     "cordova-android": "8.0.0",
-    "cordova-ios": "4.5.4",
+    "cordova-ios": "6.2.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-geolocation": "4.0.1",
     "cordova-plugin-ionic-keyboard": "2.1.3",
